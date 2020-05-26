@@ -1,0 +1,30 @@
+git init			初始化仓库
+
+ls -al			查看目录文件
+
+git add 文件名		把工作目录下的文件加入到暂存区
+
+git commit -m '注释'		把文件从工作加入到本地仓库
+
+git config --global user.name '你在gitlab或者github上面注册的账号'
+
+git config --global user.email '你在gitlab或者github上面注册的邮箱'
+
+git status			查看当前文件的状态，看那些文件可以提交到仓库
+
+git log			查看该文件的历史记录
+
+git reset  --hard HEAD^	返回到上一个版本
+git reset  --hard HEAD^^	返回到上上个版本
+git reset  --hard HEAD~100	返回到上100个版本
+git reset --hard 版本号：返回到指定的版本 
+
+git reflog:查看操作记录
+
+ssh-keygen  -t rsa –C “你注册时的邮箱”
+
+git remote add origin 仓库地址
+
+git push -u origin master:把本地仓库的文件推送到远程仓库
+
+git  clone 仓库地址：把远程仓库的东西拉取到本地git init:初始化仓库
